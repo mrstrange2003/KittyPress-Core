@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: g++.exe build KittyPress",
+      "command": "C:\\mingw64\\bin\\g++.exe",
+      "args": [
+        "-std=c++17",
+        "-O2",
+        "-static",
+        "-static-libstdc++",
+        "-static-libgcc",
+        "-fdiagnostics-color=always",
+        "-g",
+        "main.cpp",
+        "huffman.cpp",
+        "lz77.cpp",
+        "bitstream.cpp",
+        "-o",
+        "${fileDirname}\\kittypress.exe"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Builds KittyPress v3 (Huffman + LZ77 + static linking)."
+    }
+  ]
+}

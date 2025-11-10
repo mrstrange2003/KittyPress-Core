@@ -1,0 +1,616 @@
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
+// bitstream.h
+#pragma once
+#include <istream>
+#include <ostream>
+#include <cstdint>
+#include <string>
+
+class BitWriter {
+    std::ostream &out;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitWriter(std::ostream &stream);
+    void writeBit(bool bit);
+    void writeBits(const std::string &bits);
+    void flush();
+};
+
+class BitReader {
+    std::istream &in;
+    uint8_t buffer;
+    int bitCount;
+
+public:
+    BitReader(std::istream &stream);
+    bool readBit(bool &bit);
+};
