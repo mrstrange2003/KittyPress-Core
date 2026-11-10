@@ -1,6 +1,10 @@
 node_modules/
+web/dist/
 *.kitty
 *.tmpkitty
 *.tmp
 legacy-cpp/*.exe
 engine/bench/corpus/
+
+# folder created by the CLI example in the README
+restored/

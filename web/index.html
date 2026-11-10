@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#12110f" />
+    <meta name="description" content="KittyPress compresses files in your browser. Nothing is uploaded." />
+    <title>KittyPress</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Outfit:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="brand">
+        <div class="mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="26" height="26">
+            <path fill="currentColor" d="M9 16.5 9 7.5 18 15.2Z" />
+            <path fill="currentColor" d="M31 16.5 31 7.5 22 15.2Z" />
+            <rect x="8" y="15" width="24" height="17" rx="8.5" />
+            <circle cx="16" cy="22" r="1.5" fill="var(--accent)" />
+            <circle cx="24" cy="22" r="1.5" fill="var(--accent)" />
+          </svg>
+        </div>
+        <div>
+          <h1>KittyPress</h1>
+          <p class="tagline">Lossless compression, in your browser. Files stay on this computer.</p>
+        </div>
+      </header>
+      <div class="modes" role="tablist" aria-label="Mode">
+        <button type="button" id="tab-compress" role="tab" aria-selected="true" aria-controls="stage">Compress</button>
+        <button type="button" id="tab-extract" role="tab" aria-selected="false" aria-controls="stage">Extract</button>
+      </div>
+      <main id="stage"></main>
+      <footer>Format v5 · nothing is uploaded</footer>
+    </div>
+    <div id="drop-overlay" hidden>Drop files to compress</div>
+    <div id="live" class="sr-only" aria-live="polite"></div>
+    <noscript>
+      <p class="noscript">KittyPress needs JavaScript. Files would still stay on your computer.</p>
+    </noscript>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

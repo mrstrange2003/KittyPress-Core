@@ -2,12 +2,19 @@
   "name": "kittypress",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
   "workspaces": [
-    "engine"
+    "engine",
+    "web"
   ],
   "scripts": {
-    "test": "npm test --workspace engine",
-    "typecheck": "npm run typecheck --workspace engine",
+    "dev": "npm run dev --workspace web",
+    "build": "npm run build --workspace web",
+    "preview": "npm run preview --workspace web",
+    "test": "npm test --workspace engine && npm test --workspace web",
+    "typecheck": "npm run typecheck --workspace engine && npm run typecheck --workspace web",
     "bench": "npm run bench --workspace engine",
     "kp": "node engine/cli/kittypress.ts"
   }
