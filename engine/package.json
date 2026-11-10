@@ -1,0 +1,23 @@
+{
+  "name": "@kittypress/engine",
+  "version": "5.0.0",
+  "description": "KittyPress compression engine (LZ77 + Huffman, .kitty archives). Runs in browsers and Node.js.",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "bench": "node bench/bench.ts",
+    "kp": "node cli/kittypress.ts"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "typescript": "^5.9.0"
+  }
+}

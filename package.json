@@ -1,0 +1,14 @@
+{
+  "name": "kittypress",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "engine"
+  ],
+  "scripts": {
+    "test": "npm test --workspace engine",
+    "typecheck": "npm run typecheck --workspace engine",
+    "bench": "npm run bench --workspace engine",
+    "kp": "node engine/cli/kittypress.ts"
+  }
+}

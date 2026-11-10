@@ -1,0 +1,6 @@
+node_modules/
+*.kitty
+*.tmpkitty
+*.tmp
+legacy-cpp/*.exe
+engine/bench/corpus/
